@@ -1,4 +1,5 @@
-name = "Alex"
-print(name)
+names = ["Alex", "Masha", "Sasha"]
+print(names)
 
-print("Scratchy")
+for name in names:
+    print(f"the current name is {name}")
